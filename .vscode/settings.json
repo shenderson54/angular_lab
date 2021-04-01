@@ -3,6 +3,8 @@
         "angularlab",
         "opentype",
         "outlinetype",
+        "strikethrough",
+        "todo",
         "todos",
         "truetype"
     ]

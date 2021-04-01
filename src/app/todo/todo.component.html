@@ -6,9 +6,10 @@
     <input placeHolder= "Filter your To-Dos here">
 
     <ol>
-        <li *ngFor= "let todo of todos" ><button (click)="complete(todo)"  *ngIf="!todo.completed"
-           [hidden]= "todo.completed" [ngClass]="" >Complete</button>{{todo.task}} <button class="close">X</button>
-           </li>
+        <li *ngFor="let todo of todos"><button (click)="complete(todo)"
+            *ngIf="!todo.completed">Complete</button>{{todo.task}} <button class="close"
+            >X</button></li>
+            <!-- <p [ngClass]="{strike: todo.deleted}">test></p> !!!!!not working!!!!!  -->
     </ol>
     <input placeHolder= "Add your to-do">
     <button class= "add">Add</button>

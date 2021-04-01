@@ -24,3 +24,6 @@ export class TodoComponent implements OnInit {
     todo.completed = true
   }
 }
+// export class Strike {      ←←← Doesn't work
+//   deleteTodo: todo.deleted ←←← Doesn't work
+// }

@@ -1,12 +1,17 @@
 /* You can add global styles to this file, and also import other style files */
+
+@import url(https://fonts.googleapis.com/css2?family=Open+Sans&display=swap);
+
+@font-face {
+    font-family: 'OpenSans';
+    
+}
+
 body {
     background: linear-gradient(to right, #f857a6, #ff5858) ;
     display: flex;
     padding-left: 250px;
     padding-top: 15px;
+    font-family: 'OpenSans';
 }
 
-@font-face {
-    font-family: "OpenSans";
-    src: url(/assets/font/OpenSans.ttf) format("truetype");
-}
