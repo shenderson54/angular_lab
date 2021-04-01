@@ -1,1 +1,12 @@
 /* You can add global styles to this file, and also import other style files */
+body {
+    background: linear-gradient(to right, #f857a6, #ff5858) ;
+    display: flex;
+    padding-left: 250px;
+    padding-top: 15px;
+}
+
+@font-face {
+    font-family: "OpenSans";
+    src: url(/assets/font/OpenSans.ttf) format("truetype");
+}

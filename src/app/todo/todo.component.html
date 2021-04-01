@@ -1,0 +1,17 @@
+
+<div class=mainBox>
+    <h1>TODO List</h1>
+
+    <h4>A place to store your todos</h4>
+    <input placeHolder= "Filter your To-Dos here">
+
+    <ol>
+        <li *ngFor= "let todo of todos" ><button (click)="complete(todo)"  *ngIf="!todo.completed"
+           [hidden]= "todo.completed" [ngClass]="" >Complete</button>{{todo.task}} <button class="close">X</button>
+           </li>
+    </ol>
+    <input placeHolder= "Add your to-do">
+    <button class= "add">Add</button>
+</div>
+
+
